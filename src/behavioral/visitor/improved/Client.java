@@ -1,4 +1,4 @@
-package improved;
+package behavioral.visitor.improved;
 
 
 import behavioral.visitor.improved.Car;
