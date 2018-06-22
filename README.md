@@ -9,11 +9,8 @@ Richard Helm,
 Ralph Johnson and John Vlissides
 
 
-## Solution and Pattern
-
-A recursive composition is a hierarchical structure of elements, that builds "increasingly complex elements out of simpler ones" (pp36). Each node in the structure knows of its own children and its parent. If an operation is to be performed on the whole structure, each node calls the operation on its children (recursively).
-
-This is an implementation of the composite pattern, which is a collection of nodes. The node is an abstract base class, and derivatives can either be leaves (singular), or collections of other nodes (which in turn can contain leaves or collection-nodes). When an operation is performed on the parent, that operation is recursively passed down the hierarchy.
+## Design Pattern
+In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code
 
 
 
